@@ -12,7 +12,7 @@ namespace demo_core_web_app.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "Web development is not my cup of tea - Tomi Peltonen";
         }
     }
 }

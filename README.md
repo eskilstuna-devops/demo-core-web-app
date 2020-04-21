@@ -1,5 +1,7 @@
 # Demo Core Web App
 
+[![Build Status](https://dev.azure.com/tomipeltonen/azure-labs/_apis/build/status/eskilstuna-devops-ci.demo-core-web-app?branchName=master)](https://dev.azure.com/tomipeltonen/azure-labs/_build/latest?definitionId=27&branchName=master)
+
 ## This demo includes a Azure DevOps pipeline that builds and deploys a core webapp to Azure cloud.
 
 ### Prerequisites

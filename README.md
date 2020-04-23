@@ -1,14 +1,15 @@
 # Demo Core Web App
 
-[![GitHub version](https://badge.fury.io/gh/tpeltone%2demo-core-web-app.svg)](https://badge.fury.io/gh/tpeltone%2demo-core-web-app) 
 
-<!-- [![GitHub version](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version.svg)](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version) -->
 
+[![GitHub version](https://badge.fury.io/gh/eskilstuna-devops%2Fdemo-core-web-app.svg)](https://badge.fury.io/gh/eskilstuna-devops%2Fdemo-core-web-app)
 [![Build Status](https://dev.azure.com/tomipeltonen/azure-labs/_apis/build/status/eskilstuna-devops-ci.demo-core-web-app?branchName=master)](https://dev.azure.com/tomipeltonen/azure-labs/_build/latest?definitionId=27&branchName=master)
 
 This demo includes a Azure DevOps pipeline that builds and deploys a asp.net core webapp to Azure cloud app service.
 
 ## Links 
+[Version Badge](https://badge.fury.io/for/gh)
+
 [Continuous Integration, Continuous Deployment (CI-CD) with Azure DevOps](https://www.youtube.com/watch?v=jRgLSMlp28U)
 
 ### Prerequisites

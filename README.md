@@ -1,14 +1,37 @@
 # Demo Core Web App
 
+[![GitHub version](https://badge.fury.io/gh/tpeltone%2demo-core-web-app.svg)](https://badge.fury.io/gh/tpeltone%2demo-core-web-app) 
+
+<!-- [![GitHub version](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version.svg)](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version) -->
+
 [![Build Status](https://dev.azure.com/tomipeltonen/azure-labs/_apis/build/status/eskilstuna-devops-ci.demo-core-web-app?branchName=master)](https://dev.azure.com/tomipeltonen/azure-labs/_build/latest?definitionId=27&branchName=master)
 
-## This demo includes a Azure DevOps pipeline that builds and deploys a core webapp to Azure cloud.
+This demo includes a Azure DevOps pipeline that builds and deploys a asp.net core webapp to Azure cloud app service.
+
+## Links 
+[Continuous Integration, Continuous Deployment (CI-CD) with Azure DevOps](https://www.youtube.com/watch?v=jRgLSMlp28U)
 
 ### Prerequisites
 
 - Azure Subscription
 - Azure DevOps Organization 
 - GitHub Organization
+
+### Create anotated tag for the web app
+
+Get the latest commits SHA-1
+```bash
+git log --oneline --graph --decorate
+```
+Tag
+```bash
+git tag -a -m 'The first v1.0.0' v1.0.0 b38d91e
+```
+
+Push
+ ```bash
+git push origin --follow-tags
+ ```
 
 ### Azure Environments
 - demo
